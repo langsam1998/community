@@ -1,0 +1,38 @@
+2020-03-26 16:17:49,289 INFO [restartedMain] c.n.l.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication on DESKTOP-OMJ3GFS with PID 3600 (D:\workspace\community\target\classes started by 55067 in D:\workspace\community)
+2020-03-26 16:17:49,294 INFO [restartedMain] c.n.l.c.CommunityApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-26 16:17:49,329 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 16:17:49,329 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 16:17:50,195 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:17:50,201 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-26 16:17:50,202 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-26 16:17:50,202 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:17:50,273 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-26 16:17:50,273 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 944 ms
+2020-03-26 16:17:50,656 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:17:50,697 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-03-26 16:17:50,774 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-26 16:17:50,794 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-26 16:17:50,808 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2020-03-26 16:17:50,810 INFO [restartedMain] c.n.l.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.973 seconds (JVM running for 2.883)
+2020-03-26 16:18:14,170 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:18:14,170 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:18:14,173 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
+2020-03-26 16:19:58,700 INFO [restartedMain] c.n.l.c.CommunityApplication [StartupInfoLogger.java:55] Starting CommunityApplication on DESKTOP-OMJ3GFS with PID 19576 (D:\workspace\community\target\classes started by 55067 in D:\workspace\community)
+2020-03-26 16:19:58,704 INFO [restartedMain] c.n.l.c.CommunityApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-03-26 16:19:58,752 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 16:19:58,752 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 16:19:59,502 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2020-03-26 16:19:59,509 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-26 16:19:59,509 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-03-26 16:19:59,509 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 16:19:59,572 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-03-26 16:19:59,572 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 820 ms
+2020-03-26 16:19:59,894 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 16:19:59,931 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-03-26 16:20:00,005 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-03-26 16:20:00,027 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-26 16:20:00,043 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2020-03-26 16:20:00,045 INFO [restartedMain] c.n.l.c.CommunityApplication [StartupInfoLogger.java:61] Started CommunityApplication in 1.722 seconds (JVM running for 2.422)
+2020-03-26 16:20:02,829 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 16:20:02,829 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-03-26 16:20:02,832 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms

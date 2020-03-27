@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Controller
 public class TestController {
@@ -31,10 +32,27 @@ public class TestController {
     }
 
 
-    @RequestMapping(path = "/alpha",method = RequestMethod.GET)
+    @RequestMapping(path = "/alpha", method = RequestMethod.GET)
     @ResponseBody
-    public String getCookie(@CookieValue("code") String code){
+    public String getCookie(@CookieValue("code") String code) {
         return code;
+    }
+
+    //session
+    @RequestMapping(path = "/session/set", method = RequestMethod.GET)
+    @ResponseBody
+    public String setSession(HttpSession session) {
+        session.setAttribute("id", 1);
+        session.setAttribute("name", "Test");
+        return "session";
+    }
+
+    @RequestMapping(path = "/session/get", method = RequestMethod.GET)
+    @ResponseBody
+    public String getSession(HttpSession session) {
+        System.out.println(session.getAttribute("id"));
+        System.out.println(session.getAttribute("name"));
+        return "get session";
     }
 
 }
