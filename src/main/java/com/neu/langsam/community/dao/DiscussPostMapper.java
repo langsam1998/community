@@ -3,10 +3,12 @@ package com.neu.langsam.community.dao;
 import com.neu.langsam.community.entity.DiscussPost;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Mapper
+@Repository
 public interface DiscussPostMapper {
 
     //首页帖子实际不用传入userId，但考虑到之后需要实现我的帖子功能，这里就整合到一起，offset偏移量表示当前是第几行，limit表示每页数量
@@ -22,4 +24,7 @@ public interface DiscussPostMapper {
 
     //帖子详情
     DiscussPost selectDiscussPostById(int id);
+
+    //
+    int updateCommentCount(int id, int commentCount);
 }

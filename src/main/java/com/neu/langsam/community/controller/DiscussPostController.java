@@ -11,7 +11,6 @@ import com.neu.langsam.community.util.CommunityConstant;
 import com.neu.langsam.community.util.CommunityUtil;
 import com.neu.langsam.community.util.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
